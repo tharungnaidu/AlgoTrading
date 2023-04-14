@@ -1,16 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Apr 10 13:12:38 2023
-
-@author: PRASHANTH
-"""
-
-# -- coding: utf-8 --
-"""
-Created on Fri Apr  7 14:47:46 2023
-
-@author: PRASHANTH
-"""
 
 # -- coding: utf-8 --
 
@@ -237,7 +224,6 @@ def trade_signal(MERGED_DF,l_s):
             signal = "Close_Buy"
         elif df["macd"].tolist()[-1]>df["macd_sig"].tolist()[-1] and df["macd_slope"].tolist()[-1]>df["macd_sig_slope"].tolist()[-1]:
             signal = "Close"
-    print(f"hellllllllllllllllllllllllllllllllllllllllllllllllllllllllloooooooooooooooooooooo {signal}")
     return signal
     
 pairs=['NSE:PNB-EQ','NSE:TATASTEEL-EQ','NSE:DISHTV-EQ','NSE:SJVN-EQ','NSE:TRIDENT-EQ']
