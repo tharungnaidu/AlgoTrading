@@ -34,14 +34,14 @@ import statsmodels.api as sm
 
 
 class config:
-    client_id = 'XG13259'
-    app_id = 'AI6EB88RLF-100'
-    secret_key = 'IUX6DKFG5M'
-    redirect_uri ='https://web.whatsapp.com/'
-    response_type = 'code'
-    grant_type = 'authorization_code'
-    otp_key = 'PIY63PDVMAQMPZQU5O2I324F7FYQT4M5'
-    pin = '1820'
+    client_id = '*****'
+    app_id = ''*****''
+    secret_key = ''*****''
+    redirect_uri =''*****''
+    response_type = ''*****''
+    grant_type = ''*****''
+    otp_key = ''*****''
+    pin = ''*****''
 def login():
 
     """Function to login using selenium and enter OTP and generate access token"""    
